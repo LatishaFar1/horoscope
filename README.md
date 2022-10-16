@@ -10,4 +10,4 @@
 
 ### External API
 
-https://aztro.sameerkumar.website/ # horoscope
+https://aztro.sameerkumar.website/ 
