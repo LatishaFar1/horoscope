@@ -1,18 +1,24 @@
-import axios from 'axios';
+// import axios from 'axios';
 
-const URL = 'https://aztro.sameerkumar.website/';
-
-
-export const horoscopeRequest = async (params) => {
-
-    const response = await axios.post(URL, null, {
-        params: {
-            sign: params.sign
-        }
-    })
+$.ajax({
+    type:'POST',
+    url:'https://aztro.sameerkumar.website?sign=aries&day=today',
+    success:function(data){
+    console.log(data);
+    }
+});
 
 
-  
-    return response.data;
+// {$.ajax({
+//     type:'POST',
+//     url:'https://aztro.sameerkumar.website?sign=aries&day=today',
+//     success:function(data){
+//     $('#ariesDaily').append(data.description)
+//     console.log(data)
+//     }
+//      });
 
-}
+    
+// }
+
+
