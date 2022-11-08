@@ -3,19 +3,6 @@ import {Link} from "react-router-dom";
 
 function Home() {
 
-  // const [aries, setAries] = useState([])
-
-
-  
-  //   useEffect(()=> {
-  //     fetch('https://aztro.sameerkumar.website/?sign=aries', {
-  //       method: 'POST'
-  //     })
-  //     .then(response => response.json())
-  //     .then(data => setAries(data))
-  //     console.log(aries)
-  //   }, [])
-
     
   return (
     <div className='home'>
@@ -23,6 +10,13 @@ function Home() {
        
 
      {/* <Link></Link>   */}
+        <div className='main-img'>
+          <a href='/horoscopes'>
+            <img src='https://cdn.pixabay.com/photo/2021/11/19/08/19/astrology-6808362_1280.png'
+            alt='horoscope circle' />
+
+          </a>
+        </div>
     
 
     </div>

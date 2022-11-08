@@ -2,6 +2,7 @@
 import './App.css';
 import Aries from './components/Cards/Aries';
 import Home from './components/Home';
+import Horoscopes from './components/Horoscopes'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
           <Route path='/' element={ <Home/>} />
 
           {/* <Route path='/Aries' element={<Aries/>}/> */}
+
+          <Route path='/horoscopes' element={<Horoscopes/>}/>
         </Routes>
 
       </Router>
