@@ -10,6 +10,15 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  animation: rotation 25s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(120deg);
+  }
 }
 
 
